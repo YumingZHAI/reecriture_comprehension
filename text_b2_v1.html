@@ -1,0 +1,117 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr">
+<head>
+<title>Compréhension Écrite V1</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<style>
+#title{
+    width: 960px;
+    height: 80%;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+#myDIV {
+  width: 100%;
+  /*padding: 50px 0;*/
+  text-align: left;
+  background-color: lightblue;
+  margin-top: 20px;
+  display : none;
+}
+
+#myDIV2 {
+  width: 100%;
+  /*padding: 50px 0;*/
+  text-align: left;
+  background-color: lightblue;
+  margin-top: 20px;
+  display : none;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 400px;
+  /*width: 300%; */
+  background-color: #555;
+  color: #fff;
+  text-align: LEFT;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  top: 100%;
+/*//  bottom: 125%;*/
+  bottom: auto;
+  left: 50%;
+  margin-left: -60px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+p {
+  font-size: 20px;
+}
+
+</style>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myDIV");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+
+function myFunction2() {
+  var x = document.getElementById("myDIV2");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
+
+<!-- ======================================================================= -->
+
+<body>
+
+<div id="title">
+  <h1> Version 1 : texte original </h1>
+  <p>
+    De par le monde, il existe des tas d'endroits où l'on peut observer des phénomènes étonnants. Ainsi, j'ai pu voir à la lisière d'une ville, dans un pâté de maisons isolé, des chaumières qui semblaient désaffectées, où pourtant habitaient des personnes qui semblaient inaptes au travail. On y voyait un ivrogne, ayant son calepin à la main, errer avec dans son sillage certains de ses compagnons. Quand il n'écrivait pas, il racontait des récits édifiants sur les prouesses accomplies par certains personnages, ce qui faisait grincer des dents à ses amis. Ils lui en voulaient de les effrayer ainsi. Il s'avère que tous ces malheureux vivaient ainsi dans un perpétuel ennui. Pour leur sauver la mise, il aurait fallu qu'ils prennent leurs problèmes à bras le corps pour remédier à cette triste situation. Ils en étaient tout bonnement incapables, si quelqu'un ne venait pas mettre au point avec eux un moyen de s'en sortir. Mais prôner n'importe quel travail n'est pas une solution ! Un jour, un homme les entraîna pour travailler pour lui contre une poignée de pièces. Mais cette solution trop facile était un piège : cet homme était un voleur et il les incitait à jouer les fouineurs pour dévoiler des secrets. Ayant bravé les interdits, ces malheureux se sont trouvés en garde à vue. En plus, dans la foulée, leurs demeures ont été endommagées par une pluie battante. Mais bon sang ! Quelle tragédie !   
+</p>
+</div>
+
+</body>
+</html>
+
+

@@ -1,0 +1,457 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr">
+<head>
+<title>Compréhension Écrite V3</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<style>
+#title{
+    width: 960px;
+    height: 80%;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+#myDIV {
+  width: 100%;
+  /*padding: 50px 0;*/
+  text-align: left;
+  background-color: lightblue;
+  margin-top: 20px;
+  display : none;
+}
+
+#myDIV2 {
+  width: 100%;
+  /*padding: 50px 0;*/
+  text-align: left;
+  background-color: lightblue;
+  margin-top: 20px;
+  display : none;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 400px;
+  /*width: 300%; */
+  background-color: #555;
+  color: #fff;
+  text-align: LEFT;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  top: 100%;
+/*//  bottom: 125%;*/
+  bottom: auto;
+  left: 50%;
+  margin-left: -60px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555s transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+p {
+  font-size: 20px;
+}
+
+</style>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myDIV");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+
+function myFunction2() {
+  var x = document.getElementById("myDIV2");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
+
+<!-- ======================================================================= -->
+
+<body>
+
+<div id="title">
+  <h1> Version 3 : texte avec des paraphrases françaises et des traductions anglaises </h1>
+  <p>
+<span class="tooltip">  
+<strong>De par le monde</strong>
+<span class="tooltiptext">
+    <em>over the world</em> <br/>
+    <em>from around the world</em> <br/>
+    &nbsp;&nbsp;&nbsp; autour du monde<br/>
+    &nbsp;&nbsp;&nbsp; autour du globe<br/>
+    &nbsp;&nbsp;&nbsp; dans le monde entier<br/>
+    &nbsp;&nbsp;&nbsp; à travers le monde<br/>
+    &nbsp;&nbsp;&nbsp; aux quatre coins du monde<br/>   
+</span>
+</span>,
+il existe des tas d'endroits où l'on peut observer des phénomènes étonnants. Ainsi, j'ai pu voir à la 
+<span class="tooltip"> 
+<strong>lisière</strong>
+<span class="tooltiptext">
+    <em>edge</em> <br/>
+    &nbsp;&nbsp;&nbsp; frontière<br/>
+    &nbsp;&nbsp;&nbsp; bordure<br/>
+</span>
+</span>
+d'une ville, dans un   
+<span class="tooltip"> 
+<strong>pâté de maisons</strong>  
+<span class="tooltiptext">
+  <em>block of houses</em>	</br>
+  &nbsp;&nbsp;&nbsp;  bloc de maisons</br>
+  &nbsp;&nbsp;&nbsp;	quartier</br>
+</span>
+</span> 
+isolé, des 
+<span class="tooltip"> 
+<strong>chaumières</strong>
+<span class="tooltiptext">
+  <em>cottage</em>  </br>
+  <!-- &nbsp;&nbsp;&nbsp;  maisonnette</br> -->
+  &nbsp;&nbsp;&nbsp;  maison de campagne</br>
+  &nbsp;&nbsp;&nbsp;  chalet</br>
+</span>
+</span> 
+qui semblaient 
+<span class="tooltip"> 
+<strong>désaffectées</strong>
+<span class="tooltiptext">
+  <em>unused</em>  </br>
+  <em>disused</em>  </br>
+  <em>deserted</em>  </br>
+  &nbsp;&nbsp;&nbsp;  inhabité</br>
+  &nbsp;&nbsp;&nbsp;  cesser d'être utilisées</br>
+  &nbsp;&nbsp;&nbsp;  hors service</br>
+  &nbsp;&nbsp;&nbsp;  non utilisé</br>
+  &nbsp;&nbsp;&nbsp;  hors d'usage</br>
+</span>
+</span>,
+où pourtant habitaient des personnes qui semblaient 
+<span class="tooltip"> 
+<strong>inaptes au travail</strong> 
+<span class="tooltiptext">
+  <em>unfit</em>  </br>
+  <em>unemployable</em>  </br>
+  <em>incompetent</em>  </br>
+  &nbsp;&nbsp;&nbsp;  incapable de trouver un emploi</br> 
+  &nbsp;&nbsp;&nbsp;  inemployable</br>
+  &nbsp;&nbsp;&nbsp;  impossible à employer</br>
+</span>
+</span>. 
+On y voyait un 
+<span class="tooltip"> 
+<strong>ivrogne</strong>
+<span class="tooltiptext">
+  <em>drunkard</em>  </br>
+  &nbsp;&nbsp;&nbsp;  soûl </br> 
+  &nbsp;&nbsp;&nbsp;  enivré</br> 
+</span>
+</span>,  
+
+ayant son 
+<span class="tooltip"> 
+<strong>calepin</strong>
+<span class="tooltiptext">
+  <em>notebook </em>  </br>
+  &nbsp;&nbsp;&nbsp;  cahier  </br> 
+  &nbsp;&nbsp;&nbsp;  carnet de notes</br> 
+</span>
+</span>
+à la main, 
+
+<span class="tooltip"> 
+<strong>errer</strong>
+<span class="tooltiptext">
+  <em>roam </em>  </br>
+  <em>wander </em>  </br>
+  &nbsp;&nbsp;&nbsp;  flâner</br> 
+  &nbsp;&nbsp;&nbsp;  déambuler </br>
+  &nbsp;&nbsp;&nbsp;  vagabonder </br>  
+</span>
+</span>
+avec 
+
+<span class="tooltip"> 
+<strong>dans son sillage</strong>
+<span class="tooltiptext">
+  <!-- <em>after</em>  </br> -->
+  <em>in the tracks of</em>  </br>   
+  <em>in the wake of</em>  </br>    
+  &nbsp;&nbsp;&nbsp;  sur ses traces</br> 
+</span>
+</span>
+certains de ses compagnons. Quand il n'écrivait pas, il racontait des récits
+<span class="tooltip"> 
+<strong>édifiants</strong>
+<span class="tooltiptext">
+  <em>amazing</em>  </br>
+  <em>stunning</em>  </br>
+  &nbsp;&nbsp;&nbsp;  étonnant</br> 
+  &nbsp;&nbsp;&nbsp;  incroyable</br> 
+  &nbsp;&nbsp;&nbsp;  époustouflant</br> 
+</span>
+</span>
+sur les 
+<span class="tooltip"> 
+<strong>prouesses</strong>
+<span class="tooltiptext">
+  <em>achievement</em>  </br>
+  <em>feat</em>  </br>
+  <em>accomplishment</em>  </br>
+  &nbsp;&nbsp;&nbsp;  réussite </br> 
+  &nbsp;&nbsp;&nbsp;  succès</br> 
+  &nbsp;&nbsp;&nbsp;  réalisation</br> 
+  &nbsp;&nbsp;&nbsp;  accomplissement</br> 
+  &nbsp;&nbsp;&nbsp;  exploit</br> 
+</span>
+</span>
+accomplies par des personnages dans sa tête, ce qui faisait 
+<span class="tooltip"> 
+<strong>grincer des dents</strong>
+<span class="tooltiptext">
+  <em>gnash one's teeth</em>  </br>
+  <em>grind one's teeth</em>  </br>
+  &nbsp;&nbsp;&nbsp;  enrager</br>  <!--  definition in dictionary   -->
+</span>
+</span>
+à ses amis. Ils 
+<span class="tooltip"> 
+<strong>lui en voulaient</strong>
+<span class="tooltiptext">
+  <em>hate him</em>  </br>
+  <em>blame him</em>  </br>
+  <em>hold it against him</em>  </br>
+  <em>be angry with him</em>  </br>
+  <em>resent him</em>  </br>
+  &nbsp;&nbsp;&nbsp;  se mettre en colère contre lui</br> 
+  &nbsp;&nbsp;&nbsp;  être furieux contre lui</br>
+  &nbsp;&nbsp;&nbsp;  être mécontent de lui</br> 
+  &nbsp;&nbsp;&nbsp;  lui en tenir rigueur</br> 
+  &nbsp;&nbsp;&nbsp;  s'indigner de lui </br> 
+</span>
+</span>
+de les 
+<span class="tooltip"> 
+<strong>effrayer</strong>
+<span class="tooltiptext">
+  <em>frighten</em>  </br>
+  <em>scare</em>  </br>
+  <em>spook</em>  </br>
+  &nbsp;&nbsp;&nbsp;  faire peur</br> 
+  &nbsp;&nbsp;&nbsp;  terrifier</br> 
+  &nbsp;&nbsp;&nbsp;  apeurer</br> 
+</span>
+</span>
+ainsi. 
+<span class="tooltip"> 
+<strong>Il s'avère que</strong>
+<span class="tooltiptext">
+  <em>it turns out</em>  </br>
+  <em>in fact</em>  </br>
+  &nbsp;&nbsp;&nbsp;  en fait </br> 
+  &nbsp;&nbsp;&nbsp;  en réalité </br> 
+  &nbsp;&nbsp;&nbsp;  effectivement</br> 
+  &nbsp;&nbsp;&nbsp;  il se trouve que</br> 
+  <!-- &nbsp;&nbsp;&nbsp;  il semble que </br> -->
+  <!-- &nbsp;&nbsp;&nbsp;  il apparaît que </br>  -->
+</span>
+</span>
+tous ces malheureux vivaient ainsi dans un 
+<span class="tooltip"> 
+<strong>perpétuel</strong>
+<span class="tooltiptext">
+  <em>constant</em>  </br>
+  <em>perpetual</em>  </br>
+  &nbsp;&nbsp;&nbsp;  incessant</br> 
+  &nbsp;&nbsp;&nbsp;  permanent</br> 
+  &nbsp;&nbsp;&nbsp;  constant  </br>
+</span>
+</span>
+ennui. Pour leur 
+<span class="tooltip"> 
+<strong>sauver la mise</strong>
+<span class="tooltiptext">
+  <em>save the day</em>  </br>
+  <em>save them</em>  </br>
+  &nbsp;&nbsp;&nbsp;  sauver la situation</br> 
+  &nbsp;&nbsp;&nbsp;  régler la situation</br> 
+  <!-- &nbsp;&nbsp;&nbsp;  sauver le monde</br>   -->
+</span>
+</span>,
+il aurait fallu qu'ils 
+<span class="tooltip"> 
+<strong>prennent leurs problèmes à bras le corps</strong>
+<span class="tooltiptext"> 
+  <em>deal with</em>  </br>
+  <em>engage in combat with</em>  </br>
+  <em>come to grips with</em>  </br>
+  &nbsp;&nbsp;&nbsp;  régler le problème</br> 
+  &nbsp;&nbsp;&nbsp;  résoudre le problème</br>
+  <!-- &nbsp;&nbsp;&nbsp;  faire face au problème</br> -->
+  &nbsp;&nbsp;&nbsp;  lutter contre le problème</br> 
+</span>
+</span>
+pour 
+<span class="tooltip"> 
+<strong>remédier à</strong>
+<span class="tooltiptext">
+  <em>fix</em>  </br>
+  <em>address</em>  </br>
+  &nbsp;&nbsp;&nbsp;  régler</br> 
+  &nbsp;&nbsp;&nbsp;  résoudre</br> 
+  &nbsp;&nbsp;&nbsp;  traiter</br> 
+  &nbsp;&nbsp;&nbsp;  apporter une réponse à</br> 
+  &nbsp;&nbsp;&nbsp;  faire face à</br> 
+</span>
+</span>
+cette triste situation. Ils en étaient 
+<span class="tooltip"> 
+<strong>tout bonnement</strong>
+<span class="tooltiptext">
+  <em>just</em>  </br>
+  <em>simply</em>  </br>
+  &nbsp;&nbsp;&nbsp;  tout simplement</br> 
+</span>
+</span>
+incapables, si quelqu'un ne venait pas 
+<span class="tooltip"> 
+<strong>mettre au point</strong>
+<span class="tooltiptext">
+  <em>develop</em>  </br>
+  <em>work out</em>  </br>
+  <em>devise</em>  </br>
+  <em>come up with</em>  </br>
+  <em>set up</em>  </br>
+  &nbsp;&nbsp;&nbsp;  développer</br> 
+  &nbsp;&nbsp;&nbsp;  élaborer</br> 
+  &nbsp;&nbsp;&nbsp;  concevoir</br> 
+  &nbsp;&nbsp;&nbsp;  mettre en place</br> 
+</span>
+</span>
+avec eux un moyen de s'en sortir. Mais 
+<span class="tooltip"> 
+<strong>prôner</strong>
+<span class="tooltiptext">
+  <em>advocate </em>  </br>
+  <em>extol</em>  </br>
+  &nbsp;&nbsp;&nbsp;  défendre </br> 
+  &nbsp;&nbsp;&nbsp;  préconiser </br> 
+</span>
+</span>
+n'importe quel travail n'est pas une solution ! Un jour, un homme les entraîna pour travailler pour lui contre 
+<span class="tooltip"> 
+<strong>une poignée de</strong>
+<span class="tooltiptext">
+  <em>a small number of</em>  </br>
+  <em>a handful of</em>  </br>
+  <em>a couple of</em>  </br>
+  <em>a fistful of</em>  </br>
+  <em>a few</em>  </br>
+  &nbsp;&nbsp;&nbsp;  très peu </br> 
+  &nbsp;&nbsp;&nbsp;  quelques-uns </br> 
+</span>
+</span>
+pièces. Mais cette solution trop facile était un piège : cet homme était un voleur et il les incitait à jouer les
+<span class="tooltip"> 
+<strong>fouineurs</strong>
+<span class="tooltiptext">
+  <em>busybody</em>  </br>
+  <em>snoop</em>  </br>
+  &nbsp;&nbsp;&nbsp;  ceux qui mettent leur nez partout</br> 
+  &nbsp;&nbsp;&nbsp;  les gens curieux </br>
+</span>
+</span>
+pour dévoiler des secrets. Ayant 
+<span class="tooltip"> 
+<strong>bravé les interdits</strong>
+<span class="tooltiptext">
+  <em>break the rules</em>  </br>
+  <em>commit the forbidden</em> </br>
+  &nbsp;&nbsp;&nbsp;  ne pas respecter les règlements</br> 
+  &nbsp;&nbsp;&nbsp;  enfreindre les règles</br> 
+  &nbsp;&nbsp;&nbsp;  contrevenir aux règles en vigueur</br> 
+</span>
+</span>, 
+ces malheureux se sont trouvés en garde à vue. En plus, 
+<span class="tooltip"> 
+<strong>dans la foulée</strong>
+<span class="tooltiptext">
+  <em>immediately thereafter</em> </br>
+  <em>without ever skipping a beat</em>  </br>
+  &nbsp;&nbsp;&nbsp;  tout de suite après </br>
+  &nbsp;&nbsp;&nbsp;  presque aussitôt après</br>
+  &nbsp;&nbsp;&nbsp;  sans la moindre perte de temps </br>
+  &nbsp;&nbsp;&nbsp;  sans répit</br>
+</span>
+</span>, 
+leurs demeures ont été endommagées par 
+<span class="tooltip"> 
+<strong>une pluie battante</strong>
+<span class="tooltiptext">
+  <em>heavy rain</em>  </br>
+  <em>pouring rain</em>  </br>
+  <em>driving rain</em>  </br>
+  &nbsp;&nbsp;&nbsp;  pluie violente</br>
+  &nbsp;&nbsp;&nbsp;  pluie torrentielle</br>
+  &nbsp;&nbsp;&nbsp;  pleut à verse</br>
+  &nbsp;&nbsp;&nbsp;  pleuvoir à boire debout</br>
+</span>
+</span>.
+Mais  
+<span class="tooltip">
+<strong>bon sang</strong> 
+<span class="tooltiptext" >
+	<em>(my) god</em>	</br>
+  <em>(oh my) gosh  </em> </br>
+  <em>for goodness sake</em>  </br> 
+  <em>for god's sake</em>  </br>
+  <em>what the hell </em> </br>
+  <!-- <em>what in the heck</em> </br> -->
+	&nbsp;&nbsp;&nbsp;  mon dieu </br>
+	&nbsp;&nbsp;&nbsp;  jésus christ</br>
+</span>
+</span> !
+Quelle tragédie !  
+
+</p>
+</div>
+
+</body>
+</html>
+
+

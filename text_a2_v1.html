@@ -1,0 +1,157 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr">
+<head>
+<title>Compréhension Écrite V1</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<style>
+#title{
+    width: 960px;
+    height: 80%;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+#myDIV {
+  width: 100%;
+  /*padding: 50px 0;*/
+  text-align: left;
+  background-color: lightblue;
+  margin-top: 20px;
+  display : none;
+}
+
+#myDIV2 {
+  width: 100%;
+  /*padding: 50px 0;*/
+  text-align: left;
+  background-color: lightblue;
+  margin-top: 20px;
+  display : none;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 400px;
+  /*width: 300%; */
+  background-color: #555;
+  color: #fff;
+  text-align: LEFT;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  top: 100%;
+/*//  bottom: 125%;*/
+  bottom: auto;
+  left: 50%;
+  margin-left: -60px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+p {
+  font-size: 20px;
+}
+
+</style>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myDIV");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+
+function myFunction2() {
+  var x = document.getElementById("myDIV2");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
+
+<!-- ======================================================================= -->
+
+<body>
+
+<div id="title">
+  <h1> Version 1 : texte original </h1>
+  <p>
+LE RÉCHAUFFEMENT CLIMATIQUE <br/>
+
+La température moyenne ne cesse d'augmenter sur la planète. Au rythme de sa progression, il fera bientôt beaucoup trop chaud sur la Terre pour que certaines espèces puissent survivre. Le réchauffement cause aussi la fonte des glaces et la montée des océans, ce qui multiplie le risque de catastrophes naturelles (tsunamis, inondations ...). <br/>
+
+LES GAZ À EFFET DE SERRE <br/> 
+
+Pour bien comprendre ce qu'il se passe, il faut déjà comprendre ce qu'est l'effet de serre. La planète est en fait entourée d'une couche de gaz qui permet de retenir la chaleur du soleil. Elle permet de réchauffer la surface de la Terre. On les appelle les gaz à effet de serre. Si ce phénomène n'existait pas, il ne ferait que -18°C sur Terre ! D'un autre côté que se passerait-il d'après toi si la quantité de ces gaz augmentait fortement ? Et bien il ferait encore plus chaud sur la Terre ! Le problème du réchauffement climatique est que justement le volume des gaz à effet de serre est en trop forte augmentation. <br/>
+
+POURQUOI ? <br/>
+
+Ce réchauffement est dû à l'homme et à ses activités. Les sources d'énergie que nous utilisons (pétrole, charbon, gaz ...) émettent des gaz à effet de serre lorsqu'elles brûlent. Et nous en émettons beaucoup trop ! Les conséquences seront très graves d'ici 50 à 100 ans, entraînant un fort déséquilibre sur la planète. <br/>
+
+LES SOLUTIONS <br/>
+
+Pour pallier le réchauffement de la planète, il n'y a qu'un seul moyen : réduire notre consommation d'énergie émettant des gaz à effet de serre au profit d'autres énergies moins nuisibles pour la planète. On peut utiliser des technologies qui ne produisent pas de gaz, comme par exemple, des barrages hydrauliques, des panneaux solaires pour se chauffer, les éoliennes, etc. <br/>
+
+LES BONS GESTES AU QUOTIDIEN <br/>
+
+Nous pouvons tous faire un effort au quotidien pour lutter contre le réchauffement de la planète. Et si tout le monde s'y met, le résultat peut être phénoménal ! <br/>
+
+Voici 10 petits gestes que tu peux faire toi aussi: <br/>
+
+- Ne pas laisser de lumière ni d'appareil électrique allumés inutilement. <br/>
+ 
+- Baisser le chauffage. <br/>
+
+- Ne pas gaspiller l'eau en laissant couler le robinet.  <br/>
+
+- N'utiliser l'eau chaude qu'en cas de réel besoin. <br/>
+
+- Ne pas gaspiller le papier. Écris bien sur toute la feuille de papier avant d'en utiliser une autre. <br/>
+ 
+- Acheter des produits qui respectent l'environnement. <br/>
+
+- Trier les déchets. <br/>
+
+- Ne pas jeter les piles, les ampoules et les médicaments avec les autres déchets. <br/>
+
+- Pour un petit trajet, se déplacer à pied ou à vélo plutôt qu'en voiture. <br/>
+
+- Préférer le train à l'avion pour les voyages si cela est possible. <br/> 
+  </p>
+</div>
+
+</body>
+</html>
+
+
