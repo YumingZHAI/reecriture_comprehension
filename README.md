@@ -1,4 +1,4 @@
-# reecriture_comprehension
+# Réécriture et la compréhension écrite 
 
 This repository contains all the material used for the paper "La réécriture monolingue ou bilingue facilite-t-elle la compréhension ?", published in the TALN-2020 Conference. 
 
