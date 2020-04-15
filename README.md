@@ -11,6 +11,6 @@ You will find:
 
 - The pdf shows the experiment interface in Moodle, the questions for reading comprehension, the paraphrases and translations that we provided and the questionnaire to be filled after the test. 
 
-- Anonymized answers to questions and the questionnaire. 
+- Anonymized answers to questions and the questionnaire: the order of participants is the same between the result graphs in the paper, and these two Excel files 
 
 This work is done during my PhD. More detailed information about this experiment could be found in my thesis "Reconnaissance des procédés de traduction sous-phrastiques : des ressources aux validations", which is available here: https://tel.archives-ouvertes.fr/tel-02460548
