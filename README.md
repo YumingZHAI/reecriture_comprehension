@@ -7,7 +7,7 @@ Reading comprehension skills are important to develop for foreign language learn
 
 You will find: 
 
-- The three versions of the two texts in A2 and B2 level, in HTML format. 
+- The three versions of the two texts of A2 and B2 level, in HTML format. 
 
 - The pdf shows the experiment interface in Moodle, the questions for reading comprehension, the paraphrases and translations that we provided and the questionnaire to be filled after the test. 
 
